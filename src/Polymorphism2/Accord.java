@@ -8,17 +8,17 @@ public class Accord extends Car{
 
     @Override
     public String startEngine() {
-        return "Accord -> startEngine()";
+        return  getClass().getSimpleName() + " -> startEngine()";
     }
 
     @Override
     public String accelerate() {
-        return "Accord -> accelerate()";
+        return getClass().getSimpleName() + " -> accelerate()";
     }
 
     @Override
     public String brake() {
-        return "Accord -> brake()";
+        return getClass().getSimpleName() + " -> brake()";
     }
 
 }
